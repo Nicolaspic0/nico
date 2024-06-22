@@ -1,0 +1,47 @@
+html{
+    background-color: azure;
+}
+p{
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: solid;
+    color: lightslategrey;
+    border: solid;
+    padding: 20px;
+    background-color: black;
+}
+p a{
+    border-right-color: gray;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-right:2px solid;
+    padding: 8px;
+    font-size: 20px;
+}
+p a.selected{
+    color: slategray;
+    border-right-color: black;
+}
+header{
+    background-color: slategrey;
+    padding: 1%;
+    border:2px solid;
+    border-radius: 10px;
+}
+body nav{
+    border:2px solid;
+    background-color: dimgray;
+    padding: 8px;
+    border-radius: 10px;
+}}
+
+
+
+
+
+
+
+
+

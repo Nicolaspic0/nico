@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title> Cosmic Darkness</title>
+   <style>
+    html{
+        background-color: azure;
+    }
+    p{
+        font-weight: bold;
+        border-radius: 15px;
+        border-style: solid;
+        color: lightslategrey;
+        border: solid;
+        padding: 20px;
+        background-color: black;
+    }
+    p a{
+        border-right-color: gray;
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+        font-family: sans-serif;
+        border-right:2px solid;
+        padding: 8px;
+        font-size: 20px;
+    }
+    p a.selected{
+        color: slategray;
+        border-right-color: black;
+    }
+    header{
+        background-color: slategrey;
+        padding: 1%;
+        border:2px solid;
+        border-radius: 10px;
+    }
+    body nav{
+        border:2px solid;
+        background-color: dimgray;
+        padding: 8px;
+        border-radius: 10px;
+    }
+   </style>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Cosmic Darkness</title>
+   <link rel="stylesheet" href="style.css"
+   </head>
+   <header>
+    <h2><sup>Nico's</sup>Game center
+    </h2>
+    <p> 
+        <a href="https://www.friv.com">Home</a>
+        <a href="https://www.minijuegos.com">Games</a>
+        <a href="https://store.steampowered.com/?l=spanish">Game Dev</a>
+        <a href="https://www.epicgames.com/site/es-ES/home">Other pages</a>
+        </a>
+    </p>
+   </header>
+   <body>
+     <nav>
+        <center>
+    <div id="emu" style="height: 800px; min-height: 350px; width: 100%;"></div>
+    <script>
+        var NepPlayer = "#emu";
+        var NepEmu = "n64";
+        var gameUrl = "n64roms/ Game Center (USA).n64";
+        var NjsScript=document.createElement('script');
+        NjsScript.src="//mem.neptunjs.com/njs/njsLoader.js";
+        document.body,appendChlid(NjsScript)
+    </script>
+
+    <script src="https://mem.neptunjs.com/njs/njsLoader.js" type="text/javascript"> //NeptunJS lib
+        </center>
+     </nav>
+   </body>
+</html>
+     
